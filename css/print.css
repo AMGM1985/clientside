@@ -1,0 +1,902 @@
+body{
+	background-color: #171821;
+	font-family: 'Open Sans', Helvetica, Sans-Serif;
+}
+
+#wrapper {
+	min-height: 100px;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*Navigation*/
+#logo {
+	display: none;
+}
+
+#nav {
+	display: none;
+}
+
+#nav li {
+	display: none;
+}
+
+#nav li:first-child{
+	display: none;
+}
+
+#nav a{
+	display: none;
+}
+
+#nav a:hover{
+	display: none;
+}
+
+.highlighted{
+	display: none;
+}
+
+/*Index main image*/
+#main-image {
+	margin-top: 0;
+}
+
+#main-image img {
+	margin-bottom: -5px;
+}
+
+#welcome-circle{
+	display: none;
+}
+
+#heading,
+#description{
+	display: none;
+}
+
+#heading{
+	display: none;
+}
+
+#description{
+	display: none;
+}
+
+/*Quick From Index*/
+#quick-form{
+	display: none;
+}
+
+#browse-rooms{
+	display: none;
+}
+
+#book-now{
+	display: none;
+}
+
+#location{
+	display: none;
+}
+
+#browse-rooms a,
+#location a{
+	display: none;
+}
+
+#browse-rooms img,
+#location img{
+	display: none;
+}
+
+#book-now h2{
+	display: none;
+}
+
+.calendar,
+.info{
+	display: none;
+}
+
+.calendar input{
+	display: none;
+}
+
+.info input{
+	display: none;
+}
+
+.calendar label{
+	display: none;
+}
+
+.info label{
+	display: none;
+}
+#arrive{
+	display: none;
+}
+
+#arrive input,
+#leave input{
+	display: none;
+}
+
+#leave{
+	display: none;
+}
+
+#adults,
+#child,
+#room{
+	display: none;
+}
+
+#rooms label{
+	display: none;
+}
+
+#rooms input{
+	display: none;
+}
+
+#adults{
+	display: none;
+}
+
+#adults,
+#child{
+	display: none;
+}
+
+#check input{
+	display: none;
+}
+
+#check input[type=submit]{
+	display: none;
+}
+
+/*Circle Grid*/
+#circle-grid{
+	display: none;
+}
+
+#hotel-specials,
+#a-little-history,
+#whats-on,
+#fine-dining,
+#time-to-relax,
+#meetings-events{
+	display: none;
+}
+
+#fine-dining,
+#time-to-relax,
+#meetings-events{
+	display: none;
+}
+
+#hotel-specials a,
+#a-little-history a,
+#whats-on a,
+#fine-dining a,
+#time-to-relax a,
+#meetings-events a{
+	display: none;
+}
+
+#hotel-specials a:hover,
+#a-little-history a:hover,
+#whats-on a:hover,
+#fine-dining a:hover,
+#time-to-relax a:hover,
+#meetings-events a:hover{
+	display: none;
+}
+
+/*Circle Images*/
+#special,
+#history,
+#what-is-on,
+#dining,
+#relax,
+#meet-event{
+	display: none;
+}
+
+/*Footer*/
+.footer{
+	display: none;	
+}
+
+.footer .col1,
+.footer .col2,
+.footer .col3,
+.footer .col4,
+.footer .col5{
+	display: none;
+}
+
+.footer .col1 a,
+.footer .col2 a,
+.footer .col3 a,
+.footer .col4 a,
+.footer .col5 a{
+	display: none;
+}
+
+.footer .col1{
+	display: none;
+}
+
+.footer .col1 a{
+	display: none;
+}
+
+.footer .col1 p{
+	display: none;
+}
+
+.footer .col2{
+	display: none;	
+}
+
+.footer .col2 p{
+	display: none;
+}
+
+.footer .col3{
+	display: none;
+}
+
+.footer .col4{
+	display: none;
+}
+
+.footer .col5{
+	display: none;
+}
+
+.footer .col5 ul{
+	list-style: none;	
+}
+
+.footer .col5 ul{
+	list-style: none;	
+}
+
+.footer .col5 a{
+	display: none;
+
+}
+.footer .col5 ul li img{
+	border: none;
+}
+
+#copyright {
+	color: #cebca3;
+	font-size: 10px;
+	float: left;
+	margin-right: 400px;
+	margin-bottom: 50px;
+}
+
+/*reservations*/
+#head{
+	display: none;
+}
+
+#head #make-a-res{
+	display: none;
+}
+.stared-fields p{
+	display: none;
+}
+
+#res-form{
+	display: none;
+}
+
+#reservation-form-left{
+	display: none;
+}
+
+#reservation-form-left label{
+	display: none;
+}
+
+#locate{
+	display: none;
+}
+
+.check-out #check-out{
+	display: none;
+}
+
+#room-head p{
+	display: none;
+}
+ #room-head .ad{
+ 	display: none;
+ }
+
+ #room-head .rm{
+ 	display: none;
+ }
+
+.special-request #name{
+	display: none;
+}
+
+#reservation-form-right{
+	display: none;
+}
+
+#reservation-form-right label{
+	display: none;
+}
+
+.name label,
+.email label,
+.phone label,
+.addy label,
+.card-no label,
+.card-name label,
+.card-exp label{
+	display: none;
+}
+
+.card-type #title{
+	display: none;
+}
+
+.card-type #card-type{
+	display: none;
+}
+.card-type #title,
+.card-type #visa,
+.card-type #mc,
+.card-type #ae{
+	display: none;
+}
+.card-type #visa,
+.card-type #mc,
+.card-type #ae{
+	display: none;
+}
+
+.room-no #ad,
+.room-no #ch,
+.room-no #rm{
+	display: none;
+}
+
+.special-request #name{
+	display: none;
+}
+
+.room-type #room-type{
+	display: none;
+}
+#email{
+	display: none;
+}
+
+#phone1{
+	display: none;
+}
+
+#addy1{
+	display: none;
+}
+
+#addy2,
+#addy3{
+	display: none;
+}
+
+#card-no,
+#card-name{
+	display: none;
+}
+
+.submit-button input{
+	display: none;
+}
+
+.submit-button input[type=submit]{
+	display: none;
+}
+
+form #location-error,
+form #check-in-error,
+form #check-out-error,
+form #adults-error,
+form #children-error,
+form #rooms-error,
+form #rooms-type-error,
+form #name-error,
+form #email-error{
+	display: none;
+}
+
+
+/* hotel overview*/
+#overview {
+	width: 500px;
+	margin: 0 auto;
+	color: #bea686;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 40px;
+}
+
+#overview h1{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+/*conent to come*/
+#conent-to-come{
+	display: none;
+}
+
+/*contact us*/
+#contact {
+	width: 500px;
+	margin: 0 auto;
+	color: #bea686;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 40px;
+}
+
+#contact ul li{
+	list-style: none;
+}
+
+#contact h1{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#contact h2{
+	font-size: 12px;
+	color: #c82b39;
+	text-decoration: underline;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#europe-phone{
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 12px;
+}
+
+#contact p{
+	margin: 0;
+}
+
+#contact ul{
+	padding: 0;
+}
+
+/*sitemap*/
+#container{
+	list-style: none;
+}
+
+#sitemap {
+	display: none;
+}
+
+#sitemap ul{
+	display: none;
+}
+
+#sitemap ul li{
+	list-style: none;
+}
+
+#sitemap h1{
+	list-style: none;
+}
+
+#sitemap a{
+	list-style: none;
+}
+
+#sitemap a:hover{
+	list-style: none;
+}
+
+/* fine dining*/
+#fine-dine {
+	width: 500px;
+	min-height: 500px;
+	color: #bea686;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 40px;
+	margin:0 auto;
+}
+
+#fine-dine ul li{
+	list-style: none;
+}
+
+#fine-dine h1{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#fine-dine h2{
+	font-size: 12px;
+	color: #c82b39;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#fine-dine h3{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#fine-dine p{
+	margin: 0;
+}
+
+#fine-dine ul{
+	padding: 0;
+}
+
+#dine-image img{
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#bar-image,
+#roof-image{
+	float: left;
+}
+
+#bar-text,
+#roof-text{
+	z-index: 2;
+	color: #ffffff;
+	font-weight: 700;
+	position: absolute;
+	top: 1260px;
+	margin-left: 7px;
+}
+
+/* Services and Amenities*/
+#services {
+	width: 500px;
+	min-height: 500px;
+	color: #bea686;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 40px;
+	margin:0 auto;
+}
+
+#services ul li{
+	list-style: none;
+}
+
+#services h1{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#services h2{
+	font-size: 12px;
+	color: #c82b39;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#services p{
+	margin: 0;
+}
+
+#services ul{
+	padding: 0;
+}
+
+#serv-image img{
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#pool,
+#conference,
+#tickets,
+#gift,
+#fitness,
+#conc{
+	position: relative;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#pool p,
+#conference p,
+#tickets p,
+#gift p,
+#fitness p,
+#conc p{
+	position: absolute;
+	color: #000000;
+	font-weight: 700;
+	bottom: -5px;
+	left: 15px;
+}
+
+#serv .light{
+	color: #ffffff;
+}
+#serv{
+	width: 960px;
+	height: 950px;
+	border-bottom: #cebca3 solid 0.5px;
+}
+
+/* Image Slider*/
+.gallery-item {
+	width: 480px;
+	float: left;
+	margin: 12px;
+}
+
+.gallery-item img {
+	max-width: 50%;
+}
+
+#image-slider {
+	width: 960px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#image-slider .gallery-item {
+	width: 960px;
+	margin: 0;
+	float: none;
+	position: absolute;
+}
+
+/*Room circle grid*/
+#circle-grid-3{
+	display: none;
+}
+
+#circle-grid-3 img{
+	display: none;
+}
+
+#standard,
+#superior,
+#penthouse{
+	display: none;
+}
+
+#standard a,
+#superior a,
+#penthouse a{
+	display: none;	
+}
+
+#standard a:hover,
+#superior a:hover,
+#penthouse a:hover{
+	display: none;
+}
+
+/*stadard*/
+#standard-room{
+	margin:0 auto;
+	width: 500px;
+	color: #bea686;
+	margin-bottom: 100px;
+}
+
+#standard-room h1{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#standard-room h1 .bold{
+	font-size: 20px !important;
+}
+
+#standard-room h1 .color{
+	color: #c82b39 !important;
+}
+
+#standard-room p{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#standard-room-image img{
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#standard-room-1,
+#standard-room-2{
+	position: relative;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#standard-room-1 p,
+#standard-room-2 p{
+	position: absolute;
+	color: #ffffff;
+	/*color: #000000;*/
+	font-weight: 700;
+	margin-top: -60px;
+	margin-left: 10px;
+}
+
+/*superior*/
+#superior-room{
+	margin:0 auto;
+	width: 500px;
+	color: #bea686;
+	margin-bottom: 100px;
+}
+
+#superior-room h1{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#superior-room h1 .bold{
+	font-size: 20px !important;
+}
+
+#superior-room h1 .color{
+	color: #c82b39 !important;
+}
+
+#superior-room p{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#superior-room-image img{
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#superior-room-1,
+#superior-room-2{
+	position: relative;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#superior-room-1 p,
+#superior-room-2 p{
+	position: absolute;
+	color: #ffffff;
+	font-weight: 700;
+	margin-top: -60px;
+	margin-left: 10px;
+}
+
+/*penthouse*/
+#penthouse-room{
+	margin:0 auto;
+	width: 500px;
+	color: #bea686;
+	margin-bottom: 100px;
+}
+
+#penthouse-room h1{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#penthouse-room h1 .bold{
+	font-size: 20px !important;
+}
+
+#penthouse-room h1 .color{
+	color: #c82b39 ;
+}
+
+#penthouse-room p{
+	font-size: 12px;
+	line-height: 20px;
+
+}
+#penthouse-room-image img{
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#penthouse-room-1,
+#penthouse-room-2{
+	position: relative;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#penthouse-room-1 p,
+#penthouse-room-2 p{
+	position: absolute;
+	color: #ffffff;
+	font-weight: 700;
+	margin-top: -60px;
+	margin-left: 10px;
+}
+
+#penthouse-room-image #penthouse-room-1 p{
+	color: #ffffff;
+}
+
+/*Success Page*/
+#success-content,
+#processing{
+	display: none;
+}
+
+#success-content h1,
+#processing h1{
+	display: none;
+}
+
+#success-content p,
+#processing p{
+	display: none;
+}
+
+/*Error Messages JS Reservation*/
+.error {
+	display: none;
+}
+
+.error-1{
+	display: none;
+}
+
+/*Error Messages Js Check Availability*/
+#rooms-error,
+#arrive-error,
+#leave-error{
+	display: none;	
+}
+
+#rm-error-message{
+	display: none;
+}

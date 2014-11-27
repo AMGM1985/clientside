@@ -1,0 +1,1 @@
+function checkPatternMatch(e,t){return e.test(t.trim())}function checkStringLengthValid(e,t,n,r){if(r==true){}else{e=e.trim()}if(e.length<t||e.length>n){return false}else{return true}}
